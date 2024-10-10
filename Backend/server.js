@@ -16,9 +16,10 @@ const todoSchema = new mongoose.Schema({
   description: {
     type: String,
     required: true,
-  },
+  }, 
 });
 
+//dssdsd
 const todoModel = mongoose.model("Todo", todoSchema);
 let todos = [];
 app.use(express.json());
